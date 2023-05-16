@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <h1>Reserva una hora</h1>
+  
+        <form id="formulario">
+          <section class="input-group">
+            <div class="input input-nombre">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" placeholder="nombre" />
+            </div>
+            <div class="input input-apellido">
+              <label for="apellido">Apellido</label>
+              <input
+                type="text"
+                name="apellido"
+                id="apellido"
+                placeholder="apellido"
+              />
+            </div>
+            <div class="input input-correo">
+              <label for="correo"
+                >Correo <span>(te notificaremos aquí)</span></label
+              >
+              <input
+                type="email"
+                name="correo"
+                id="correo"
+                placeholder="tu@ejemplo.com"
+              />
+            </div>
+            <div class="input input-edad">
+              <label for="edad">Edad</label>
+              <input type="number" name="edad" id="edad" />
+            </div>
+            <div class="input input-fecha">
+              <label for="fecha">Fecha</label>
+              <input type="date" name="fecha" id="fecha" />
+            </div>
+          </section>
+  
+          <button id="btn" class="btn">Enviar</button>
+        </form>
+      </main>
+
+    <!--Js-->
+    <script src="assets/js/script.js"></script>
+    <!--Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</body>
+</html>
